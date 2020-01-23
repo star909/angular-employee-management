@@ -1,0 +1,32 @@
+[
+    {
+    "id":"1",
+    "name":"Shivam",
+    "designation":"Software Engineer",
+    "shiftTiming":"General"
+  },
+   {
+    "id":"2",
+    "name":"Rahul",
+    "designation":" Senior Software Engineer",
+    "shiftTiming":"General"
+  },
+   {
+    "id":"3",
+    "name":"Vijay",
+    "designation":"Tech Support",
+    "shiftTiming":"Night Shift"
+  },
+   {
+    "id":"4",
+    "name":"Ramesh",
+    "designation":"Tech Support",
+    "shiftTiming":"Day shift"
+  },
+   {
+    "id":"5",
+    "name": "Saurabh",
+    "designation":"Technical Manager",
+    "shiftTiming":"General"
+  }
+]

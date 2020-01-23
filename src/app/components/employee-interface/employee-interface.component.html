@@ -1,0 +1,17 @@
+<table class="employeeRegister">
+<tr>
+<th>S.No</th>
+<th>Employee Name</th>
+<th>Designation</th>
+<th>Shift-Timming</th>
+<th>Attendance</th>
+</tr>
+<!--Getting data through http from json file-->
+<tr *ngFor ="let employee of employeeData">
+<td>{{employee.id}}</td>
+<td>{{employee.name}}</td>
+<td>{{employee.designation}}</td>
+<td>{{employee.shiftTiming}}</td>
+<td><button>Present</button></td>
+</tr>
+</table>
