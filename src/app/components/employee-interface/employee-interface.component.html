@@ -12,6 +12,7 @@
 <td>{{employee.name}}</td>
 <td>{{employee.designation}}</td>
 <td>{{employee.shiftTiming}}</td>
-<td><button>Present</button></td>
+<td><button (click)="confirmAttendance(employee)">Present</button></td>
+
 </tr>
 </table>

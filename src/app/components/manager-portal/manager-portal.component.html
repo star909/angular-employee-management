@@ -1,3 +1,9 @@
 <h2>Employee Management System</h2>
-
-<app-employee-interface></app-employee-interface>
+<button (click) ="employeeAttendance()">Office Open</button>
+<!--Getting data from child component-->
+<app-employee-interface (outputToManager)="getEmployeeName($event)"></app-employee-interface>
+<ul>
+<li *ngFor="let event of confirmation">{{event}}</li>
+<!--Getting employee data-->
+<li>{{employeeCurrentValue?.name}}</li>
+</ul>
